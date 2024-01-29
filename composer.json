@@ -1,10 +1,10 @@
 {
-    "name": "brookinsconsulting/ezgpg",
+    "name": "se7enxweb/ezgpg",
     "description": "eZ Publish Legacy extension eZ GPG is an extension which provides simple, transparent, secure (openpgp compatible) encryption and decryption functionality to eZ Publish using the GNU Privacy Guard, GPG",
     "type": "ezpublish-legacy-extension",
     "keywords": [ "eZ Publish", "eZ Publish Legacy", "eZ Publish Platform", "encryption", "gpg", "extension", "php", "classes", "script", "security" ],
-    "homepage": "https://github.com/brookinsconsulting/ezgpg",
-    "license": "GPL-2.0+",
+    "homepage": "https://github.com/se7enxweb/ezgpg",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name" : "Brookins Consulting",
@@ -16,7 +16,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.0.0",
-        "ezsystems/ezpublish-legacy-installer": "*"
+        "se7enxweb/ezpublish-legacy-installer": "*"
     },
     "extra": {
         "ezpublish-legacy-extension-name": "ezgpg"
